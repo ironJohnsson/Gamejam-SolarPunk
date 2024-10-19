@@ -7,10 +7,10 @@
 event_inherited();
 
 //criar raios na frente dele (para criar uma continuidade dos raios)
+qtd_de_raios = 15;
+desloc_em_x = dcos(image_angle) * veloc *1/qtd_de_raios;
+desloc_em_y =  dsin(image_angle) * veloc *1/qtd_de_raios;
 
-desloc_em_x = dcos(angulo) * veloc *1/qtd_de_raios;
-desloc_em_y =  dsin(angulo) * veloc *1/qtd_de_raios;
-qtd_de_raios = 30;
 
 for(i=1; i<qtd_de_raios; i++){
 

@@ -4,7 +4,7 @@
 //speed = 10;
 veloc = 30;
 
-angulo = obj_player_arm.image_angle;
+image_angle = obj_player_arm.image_angle;
 
 if(place_meeting(x,y,obj_block)){
 
