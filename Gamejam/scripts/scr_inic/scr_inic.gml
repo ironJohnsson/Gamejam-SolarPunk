@@ -1,0 +1,1 @@
+#macro gravidade .3
