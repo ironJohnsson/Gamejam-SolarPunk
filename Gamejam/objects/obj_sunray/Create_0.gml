@@ -2,7 +2,7 @@
 // Você pode escrever seu código neste editor
 
 //speed = 10;
-veloc = 10;
+veloc = 30;
 
 angulo = obj_player_arm.image_angle;
 

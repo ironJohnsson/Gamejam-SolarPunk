@@ -23,9 +23,9 @@ case 1: //sunray
 
 	if(shootleft){
 		
-		with (instance_create_layer(projectile_spawn_point_x, projectile_spawn_point_y, "Layer_projectile", obj_sunray)){
+		instance_create_layer(projectile_spawn_point_x, projectile_spawn_point_y, "Layer_projectile", obj_spawn_sunray);
 	
-		}
+	
 	}
 
 break;

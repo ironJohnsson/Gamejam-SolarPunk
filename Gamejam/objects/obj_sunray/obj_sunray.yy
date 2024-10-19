@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_sunray",
   "spriteId": {
-    "name": "raio1",
-    "path": "sprites/raio1/raio1.yy",
+    "name": "spr_sunray",
+    "path": "sprites/spr_sunray/spr_sunray.yy",
   },
   "solid": false,
   "visible": true,
