@@ -8,3 +8,6 @@ distancia_braco_y = 0;
 active_weapon = 1; //sunray
 
 ponta_da_arma_x = 32;
+
+sandal_respawn_frame = true;
+
