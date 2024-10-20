@@ -22,3 +22,11 @@ else //pululante no chão
 			velv = -max_velv	
 		}
 }
+
+//olhar para a direita ou esquerda (invertendo o sprite)
+if(mouse_x >= x){
+	image_xscale = 1;
+}
+else{
+	image_xscale = -1
+}
