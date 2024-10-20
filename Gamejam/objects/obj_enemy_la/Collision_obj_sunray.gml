@@ -4,5 +4,3 @@ instance_destroy(other);
 with other{
 	instance_destroy();
 }
-
-
