@@ -15,8 +15,10 @@ if!place_meeting(x,y,obj_enemy){
 	vspd_push = lerp(vspd_push,0,.1);
 }
 
-//morte
-
-if hp<=0{
-	instance_destroy();
+if distance_to_object(obj_player)<100{
+	state=ATK;
 }
+
+
+
+

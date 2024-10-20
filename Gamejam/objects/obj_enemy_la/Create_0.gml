@@ -7,7 +7,13 @@ spd=3;
 vspd_push = 1;
 hspd_push = 1;
 
-hp=500;
+hp=300;
 
-chase = true;
-atk=false;
+
+
+//estados
+MOV = 0;
+ATK = 1;
+HIT = 2;
+
+state = MOV;

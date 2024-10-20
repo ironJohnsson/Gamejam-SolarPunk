@@ -1,4 +1,14 @@
-if distance_to_object(obj_player)>180{
+event_user(state); 
+
+//morte
+
+if hp<=0{
+	instance_destroy();
+}
+
+
+
+/*if distance_to_object(obj_player)>180{
 	chase= true;
 	atk = false;
 }else{
