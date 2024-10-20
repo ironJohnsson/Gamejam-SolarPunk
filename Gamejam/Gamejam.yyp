@@ -9,6 +9,7 @@
     {"id":{"name":"spr_player_arm","path":"sprites/spr_player_arm/spr_player_arm.yy",},"order":2,},
     {"id":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"order":1,},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},"order":1,},
+    {"id":{"name":"obj_fps_coun","path":"objects/obj_fps_coun/obj_fps_coun.yy",},"order":14,},
     {"id":{"name":"spr_col","path":"scripts/spr_col/spr_col.yy",},"order":1,},
     {"id":{"name":"scr_col_enem","path":"scripts/scr_col_enem/scr_col_enem.yy",},"order":0,},
     {"id":{"name":"obj_cana_plant","path":"objects/obj_cana_plant/obj_cana_plant.yy",},"order":12,},
