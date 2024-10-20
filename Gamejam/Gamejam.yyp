@@ -15,6 +15,7 @@
     {"id":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"order":1,},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},"order":1,},
     {"id":{"name":"spr_sandal","path":"sprites/spr_sandal/spr_sandal.yy",},"order":9,},
+    {"id":{"name":"cana","path":"sprites/cana/cana.yy",},"order":11,},
     {"id":{"name":"obj_player_arm","path":"objects/obj_player_arm/obj_player_arm.yy",},"order":4,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"obj_enti","path":"objects/obj_enti/obj_enti.yy",},"order":3,},
