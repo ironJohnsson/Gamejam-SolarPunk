@@ -33,4 +33,6 @@ if place_meeting(x,y+vspd,obj_block){
 	}
 	vspd=0;
 }
+
 y+=vspd
+
