@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_cana_cortada",
+  "name": "obj_cana_plant_cutted",
   "spriteId": {
-    "name": "spr_cana_cortada",
-    "path": "sprites/spr_cana_cortada/spr_cana_cortada.yy",
+    "name": "spr_cana_plant_cutted",
+    "path": "sprites/spr_cana_plant_cutted/spr_cana_plant_cutted.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,7 +24,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

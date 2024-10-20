@@ -36,3 +36,36 @@ if place_meeting(x,y+vspd,obj_block){
 
 y+=vspd
 
+//olhar para a direita ou esquerda (invertendo o sprite)
+if(mouse_x >= x){
+	image_xscale = 1;
+}
+else{
+	image_xscale = -1
+}
+
+
+//pegar e colocar cana
+
+if(keyboard_check(ord(interact_button))){
+	
+	instancia_cana = instance_position(x, y, obj_cana_plant);
+	
+	
+	if(instancia_cana!=noone && !cana_equipped){
+		
+		with(instancia_cana) cortar = true;
+		
+		instance_create_layer(x,y,"Layer_equipped_items",obj_cana_equipped);
+		cana_equipped = true;
+	}
+	
+	
+	if(place_meeting(x,y,obj_cana_machine)){
+		
+	}
+}
+
+//para checar o fps:
+//show_debug_message("fps real: " + string(fps_real));
+//show_debug_message("gamespeed_fps: " + string(game_get_speed(gamespeed_fps)));

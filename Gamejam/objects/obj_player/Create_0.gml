@@ -11,3 +11,7 @@ jump_h = -16
 
 
 gravity_= .8;
+
+interact_button = "E";
+
+cana_equipped = false;
