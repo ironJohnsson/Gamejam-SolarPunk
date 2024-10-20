@@ -36,3 +36,23 @@ if place_meeting(x,y+vspd,obj_block){
 
 y+=vspd
 
+//pegar e colocar cana
+
+if(keyboard_check(ord(interact_button))){
+	
+	instancia_cana = instance_position(x, y, obj_cana_plant);
+	
+	
+	if(instancia_cana!=noone && !cana_equipped){
+		
+		with(instancia_cana) cortar = true;
+		
+		instance_create_layer(x,y,"Layer_equipped_items",obj_cana_equipped);
+		cana_equipped = true;
+	}
+	
+	
+	if(place_meeting(x,y,obj_cana_machine)){
+		
+	}
+}

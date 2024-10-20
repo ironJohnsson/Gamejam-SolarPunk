@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_cana_machine",
+  "name": "obj_cana_equipped",
   "spriteId": {
-    "name": "spr_cana_machine_strip47",
-    "path": "sprites/spr_cana_machine_strip47/spr_cana_machine_strip47.yy",
+    "name": "spr_cana_equipped",
+    "path": "sprites/spr_cana_equipped/spr_cana_equipped.yy",
   },
   "solid": false,
   "visible": true,
