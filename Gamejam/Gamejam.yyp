@@ -3,26 +3,19 @@
   "resourceVersion": "1.6",
   "name": "Gamejam",
   "resources": [
-
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":6,},
     {"id":{"name":"obj_cam","path":"objects/obj_cam/obj_cam.yy",},"order":2,},
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},"order":4,},
-    {"id":{"name":"spr_player_arm","path":"sprites/spr_player_arm/spr_player_arm.yy",},"order":3,},
+    {"id":{"name":"spr_player_arm","path":"sprites/spr_player_arm/spr_player_arm.yy",},"order":2,},
     {"id":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"order":1,},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},"order":1,},
-
     {"id":{"name":"scr_inic","path":"scripts/scr_inic/scr_inic.yy",},"order":0,},
     {"id":{"name":"obj_sunray","path":"objects/obj_sunray/obj_sunray.yy",},"order":6,},
     {"id":{"name":"obj_sandal","path":"objects/obj_sandal/obj_sandal.yy",},"order":8,},
     {"id":{"name":"obj_spawn_sunray","path":"objects/obj_spawn_sunray/obj_spawn_sunray.yy",},"order":7,},
     {"id":{"name":"obj_player_aim","path":"objects/obj_player_aim/obj_player_aim.yy",},"order":5,},
-    {"id":{"name":"obj_cam","path":"objects/obj_cam/obj_cam.yy",},"order":2,},
     {"id":{"name":"spr_spawn_sunray","path":"sprites/spr_spawn_sunray/spr_spawn_sunray.yy",},"order":7,},
-    {"id":{"name":"spr_player_arm","path":"sprites/spr_player_arm/spr_player_arm.yy",},"order":2,},
-    {"id":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"order":1,},
-    {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},"order":1,},
     {"id":{"name":"spr_sandal","path":"sprites/spr_sandal/spr_sandal.yy",},"order":9,},
-
     {"id":{"name":"obj_player_arm","path":"objects/obj_player_arm/obj_player_arm.yy",},"order":4,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"obj_enti","path":"objects/obj_enti/obj_enti.yy",},"order":3,},
@@ -30,12 +23,9 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"spr_sunray","path":"sprites/spr_sunray/spr_sunray.yy",},"order":6,},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},"order":1,},
-
     {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},"order":5,},
-
     {"id":{"name":"obj_projectile","path":"objects/obj_projectile/obj_projectile.yy",},"order":9,},
     {"id":{"name":"spr_player_aim","path":"sprites/spr_player_aim/spr_player_aim.yy",},"order":5,},
-
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
