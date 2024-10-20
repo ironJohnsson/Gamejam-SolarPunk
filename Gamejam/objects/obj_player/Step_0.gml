@@ -36,6 +36,15 @@ if place_meeting(x,y+vspd,obj_block){
 
 y+=vspd
 
+//olhar para a direita ou esquerda (invertendo o sprite)
+if(mouse_x >= x){
+	image_xscale = 1;
+}
+else{
+	image_xscale = -1
+}
+
+
 //pegar e colocar cana
 
 if(keyboard_check(ord(interact_button))){
@@ -56,3 +65,4 @@ if(keyboard_check(ord(interact_button))){
 		
 	}
 }
+
