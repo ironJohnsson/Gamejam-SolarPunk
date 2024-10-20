@@ -1,6 +1,8 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-equipped = true;
+equipped_mode = true;
 
-shoot = false; 
+shoot_mode = false; 
+
+veloc = 5;
