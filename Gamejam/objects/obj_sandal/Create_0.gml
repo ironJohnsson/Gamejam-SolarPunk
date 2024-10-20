@@ -5,4 +5,5 @@ equipped_mode = true;
 
 shoot_mode = false; 
 
-veloc = 5;
+veloc = 10;
+

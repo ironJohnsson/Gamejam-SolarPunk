@@ -7,6 +7,7 @@
     {"id":{"name":"obj_sunray","path":"objects/obj_sunray/obj_sunray.yy",},"order":6,},
     {"id":{"name":"obj_sandal","path":"objects/obj_sandal/obj_sandal.yy",},"order":8,},
     {"id":{"name":"obj_spawn_sunray","path":"objects/obj_spawn_sunray/obj_spawn_sunray.yy",},"order":7,},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":2,},
     {"id":{"name":"obj_player_aim","path":"objects/obj_player_aim/obj_player_aim.yy",},"order":5,},
     {"id":{"name":"obj_cam","path":"objects/obj_cam/obj_cam.yy",},"order":2,},
     {"id":{"name":"spr_spawn_sunray","path":"sprites/spr_spawn_sunray/spr_spawn_sunray.yy",},"order":7,},
@@ -43,6 +44,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
   ],

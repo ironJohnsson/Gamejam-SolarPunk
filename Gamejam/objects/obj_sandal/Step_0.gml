@@ -1,7 +1,7 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-
+if(obj_player_arm.active_weapon != 2) equipped_mode = false;
 
 if(equipped_mode){
 
@@ -14,9 +14,11 @@ if(equipped_mode){
 	
 }else if(shoot_mode){
 
+
+
 x = x + dcos(image_angle) * veloc;
 y = y - dsin(image_angle) * veloc;
-	
+
 	
 }else{
 

@@ -11,3 +11,7 @@ ponta_da_arma_x = 32;
 
 sandal_respawn_frame = true;
 
+sandal_on_cooldown = false;
+
+sandal_cooldown = 30; //em frames
+sandal_timer = 0;
