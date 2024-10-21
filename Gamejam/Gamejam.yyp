@@ -3,7 +3,6 @@
   "resourceVersion": "1.6",
   "name": "Gamejam",
   "resources": [
-    {"id":{"name":"Room_background5","path":"rooms/Room_background5/Room_background5.yy",},"order":4,},
     {"id":{"name":"obj_daynight2","path":"objects/obj_daynight2/obj_daynight2.yy",},"order":16,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":6,},
     {"id":{"name":"spr_bloco_quina","path":"sprites/spr_bloco_quina/spr_bloco_quina.yy",},"order":15,},
@@ -35,7 +34,6 @@
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},"order":7,},
     {"id":{"name":"Lose","path":"rooms/Lose/Lose.yy",},"order":8,},
     {"id":{"name":"spr_alvorecer","path":"sprites/spr_alvorecer/spr_alvorecer.yy",},"order":14,},
-    {"id":{"name":"Room_teste_cana6","path":"rooms/Room_teste_cana6/Room_teste_cana6.yy",},"order":5,},
     {"id":{"name":"obj_daynight","path":"objects/obj_daynight/obj_daynight.yy",},"order":15,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":9,},
     {"id":{"name":"spr_sandal","path":"sprites/spr_sandal/spr_sandal.yy",},"order":7,},
@@ -66,7 +64,6 @@
     {"id":{"name":"obj_cana_plant_cutted","path":"objects/obj_cana_plant_cutted/obj_cana_plant_cutted.yy",},"order":13,},
     {"id":{"name":"obj_projectile","path":"objects/obj_projectile/obj_projectile.yy",},"order":9,},
     {"id":{"name":"spr_player_aim","path":"sprites/spr_player_aim/spr_player_aim.yy",},"order":4,},
-    {"id":{"name":"Room_teste_hud7","path":"rooms/Room_teste_hud7/Room_teste_hud7.yy",},"order":6,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -90,9 +87,6 @@
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"Room_teste_cana6","path":"rooms/Room_teste_cana6/Room_teste_cana6.yy",},},
-    {"roomId":{"name":"Room_teste_hud7","path":"rooms/Room_teste_hud7/Room_teste_hud7.yy",},},
-    {"roomId":{"name":"Room_background5","path":"rooms/Room_background5/Room_background5.yy",},},
     {"roomId":{"name":"Lose","path":"rooms/Lose/Lose.yy",},},
   ],
   "Folders": [
