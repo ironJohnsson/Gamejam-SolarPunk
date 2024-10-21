@@ -1,5 +1,5 @@
 min_ = 0;
-hours = 0;
+hours = 6;
 
 increase = 0.1; //how fast the day passes
 
