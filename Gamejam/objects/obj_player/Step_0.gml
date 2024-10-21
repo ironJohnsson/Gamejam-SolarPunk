@@ -69,3 +69,7 @@ if(keyboard_check(ord(interact_button))){
 //para checar o fps:
 //show_debug_message("fps real: " + string(fps_real));
 //show_debug_message("gamespeed_fps: " + string(game_get_speed(gamespeed_fps)));
+if hp <=0{
+	room_goto(Lose)
+}
+

@@ -3,7 +3,7 @@ hspd = 0;
 max_hspd = 6;
 fat= .3;
 vspd = 0;
-
+hp=50;
 
 accel = 1;
 

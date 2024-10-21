@@ -1,9 +1,18 @@
-/// @description movimentação
+ /// @description movimentação
 //movimentação em direção ao player
+
 
 var dir = point_direction(x,y,obj_player.x,obj_player.y);
 hspd=lengthdir_x(spd,dir);
 vspd=lengthdir_y(spd,dir);
+
+if !place_meeting(x,y+1, obj_block){
+	vspd+=gravity_;
+} else {
+ if place_meeting(x,y+1, obj_block){
+	 vspd = jump_h
+	}
+}
 
 spr_col();
 
