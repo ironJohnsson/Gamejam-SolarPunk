@@ -1,8 +1,45 @@
+
+image_index = imagem;
+obj_daynight2.image_index = imagem2;
+
 min_ += increase;
 
-if (min_ > 60) { min_ = 0; hours++; 
+if (min_ > 60) { min_ = 0; hours++}; 
 	
+if (hours == 0) { alpha_1 = 1;
+		
+		imagem = 0;
+		imagem2 = 1;
+	}
 	
+	if (hours == 6) {  alpha_1 = 1;
+		
+		imagem = 2;
+		imagem2 = 3;
+	}
+	
+	if (hours == 12) {  alpha_1 = 1;
+		imagem = 4;
+		imagem2 = 5;
+	}
+	
+	if (hours == 18) {  alpha_1 = 1;
+		imagem= 5;
+		imagem2=0;
+	}
+	
+	if (hours > 23) hours = 0;
+
+
+alpha_1 -= alphaDecrease;
+alpha_1 = clamp(alpha_1, 0, 1);
+
+image_alpha = alpha_1;
+
+
+
+	
+/*	
 	//swap images if certain times of day
 	if (hours == 0) { alpha = 1;
 		layer_background_sprite(back_id_1, spr_noite);
@@ -30,8 +67,5 @@ if (min_ > 60) { min_ = 0; hours++;
 
 if (hours > 23) { hours = 0; } 
 
-alpha_1 -= alphaDecrease;
-alpha_1 = clamp(alpha_1, 0, 1);
 
-layer_background_alpha(back_id_1, alpha_1);
-}
+*/
