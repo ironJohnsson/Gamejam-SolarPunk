@@ -17,7 +17,7 @@ if(equipped_mode){
 	if(image_xscale < 0) angulo_lancamento += 180;
 	
 }else if(shoot_mode){
-	
+		
 
 	if(place_meeting(x,y,(obj_block)) || place_meeting(x,y,(obj_enemy)) || place_meeting(x,y,(obj_enemy_la)) ){
 	

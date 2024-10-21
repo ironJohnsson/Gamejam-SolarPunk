@@ -8,7 +8,7 @@ jump_h = -16;
 vspd_push = 1;
 hspd_push = 1;
 
-hp=500;
+hp=100;
 
 //estados
 MOV = 0;

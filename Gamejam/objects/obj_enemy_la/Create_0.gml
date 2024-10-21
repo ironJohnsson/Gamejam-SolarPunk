@@ -7,7 +7,7 @@ spd=3;
 vspd_push = 1;
 hspd_push = 1;
 
-hp=300;
+hp=50;
 
 
 bullet_cd=room_speed/2;
