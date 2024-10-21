@@ -20,6 +20,7 @@
     {"id":{"name":"spr_cana_plant","path":"sprites/spr_cana_plant/spr_cana_plant.yy",},"order":11,},
     {"id":{"name":"obj_sunray","path":"objects/obj_sunray/obj_sunray.yy",},"order":6,},
     {"id":{"name":"obj_sandal","path":"objects/obj_sandal/obj_sandal.yy",},"order":8,},
+    {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},"order":10,},
     {"id":{"name":"obj_energy_HUD","path":"objects/obj_energy_HUD/obj_energy_HUD.yy",},"order":17,},
     {"id":{"name":"obj_enem_bullet","path":"objects/obj_enem_bullet/obj_enem_bullet.yy",},"order":15,},
     {"id":{"name":"scr_col","path":"scripts/scr_col/scr_col.yy",},"order":1,},
@@ -28,6 +29,7 @@
     {"id":{"name":"obj_player_aim","path":"objects/obj_player_aim/obj_player_aim.yy",},"order":5,},
     {"id":{"name":"spr_enemy_la","path":"sprites/spr_enemy_la/spr_enemy_la.yy",},"order":9,},
     {"id":{"name":"spr_spawn_sunray","path":"sprites/spr_spawn_sunray/spr_spawn_sunray.yy",},"order":6,},
+    {"id":{"name":"spr_game_over","path":"sprites/spr_game_over/spr_game_over.yy",},"order":22,},
     {"id":{"name":"spr_manha","path":"sprites/spr_manha/spr_manha.yy",},"order":16,},
     {"id":{"name":"spr_cana_equipped","path":"sprites/spr_cana_equipped/spr_cana_equipped.yy",},"order":12,},
     {"id":{"name":"spr_main_font","path":"sprites/spr_main_font/spr_main_font.yy",},"order":1,},
@@ -86,6 +88,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
+    {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Lose","path":"rooms/Lose/Lose.yy",},},

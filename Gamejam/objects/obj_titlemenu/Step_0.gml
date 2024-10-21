@@ -1,4 +1,4 @@
-//get inputs
+ //get inputs
 up_key = keyboard_check_pressed(vk_up);
 down_key = keyboard_check_pressed(vk_down);
 accept_key = keyboard_check_pressed(vk_space);
@@ -35,29 +35,42 @@ if accept_key {
 		case 1:
 		switch(pos) {
 			//Devs
-			case 0: break;
-			//Cezi
-			case 1: break;
-			//Jonso
-			case 2: break;
-			//Serg
-			case 3: break;
+			case 0: menu_level = 2; break;
 			//Art
-			case 4: break;
+			case 1: menu_level = 3; break;
+			//Return
+			case 2: menu_level = 0; break;
+		}
+		 break;
+		 //Dev menu
+		 case 2:
+		switch(pos) {
+			//Cezi
+			case 0: break;
+			//Jonso
+			case 1: break;
+			//Serg
+			case 2: break;
+			//Return
+			case 3: menu_level = 1; break;
+		}
+		 break;
+		 //Art Menu
+		 case 3:
+		switch(pos) {
 			//Bela
-			case 5: break;
-			//Gabi
-			case 6: break;
-			//return
-			case 7: menu_level = 0; break;
+			case 0: break;
+			//Gab
+			case 1: break;
+			//Return
+			case 2: menu_level = 1; break;
 		}
 		
+	}
 		
 		//next position back
 		if _sml != menu_level {pos = 0};
 		
 		//correct option lenght
 		op_length = array_length(option[menu_level]);
-		
-	}
 } 

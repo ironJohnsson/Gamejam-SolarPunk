@@ -13,13 +13,19 @@ option[0, 2] = "Quit Game";
 
 //credits menu
 option[1, 0] = "Devs"
-option[1, 1] = "Rafael de Sales Cezimbra Rodrigues"
-option[1, 2] = "Matheus Luiz Neves Johnsson"
-option[1, 3] = "Sérgio Oliveira Pinheiro Bomfim Rios"
-option[1, 4] = "Arte"
-option[1, 5] = "Isabela Coutinho Coelho"
-option[1, 6] = "Gabriela Simone Vasquez Santiago"
-option[1, 7] = "Return"
+option[1, 1] = "Arte"
+option[1, 2] = "Return"
+
+//Dev menu
+option[2, 0] = "Rafael de Sales Cezimbra Rodrigues"
+option[2, 1] = "Matheus Luiz Neves Johnsson"
+option[2, 2] = "Sergio Oliveira Pinheiro Bomfim Rios"
+option[2, 3] = "Return"
+
+//Art Menu
+option[3, 0] = "Isabela Coutinho Coelho"
+option[3, 1] = "Gabriela Simone Vasquez Santiago"
+option[3, 2] = "Return"
 
 
 op_length = 0;
