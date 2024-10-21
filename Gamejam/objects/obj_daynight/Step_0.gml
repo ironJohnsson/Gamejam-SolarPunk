@@ -36,8 +36,10 @@ alpha_1 = clamp(alpha_1, 0, 1);
 
 image_alpha = alpha_1;
 
+if(hours >= 6 && hours <= 18) global.dia = true;
+else global.dia = false;
 
-
+show_debug_message(hours);
 	
 /*	
 	//swap images if certain times of day
@@ -69,3 +71,4 @@ if (hours > 23) { hours = 0; }
 
 
 */
+

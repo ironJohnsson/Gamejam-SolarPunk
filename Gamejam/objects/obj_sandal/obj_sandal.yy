@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_sandal",
   "spriteId": {
-    "name": "spr_sandal",
-    "path": "sprites/spr_sandal/spr_sandal.yy",
+    "name": "spr_sandalia36",
+    "path": "sprites/spr_sandalia36/spr_sandalia36.yy",
   },
   "solid": false,
   "visible": true,

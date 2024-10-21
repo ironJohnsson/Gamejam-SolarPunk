@@ -16,6 +16,7 @@ if(pickup_mode){
 	
 	if(position_meeting(x,y, obj_player)){
 	
+	obj_player.hp = obj_player.max_hp;
 	instance_destroy();
 	
 	//botar codigo de curar o jogador

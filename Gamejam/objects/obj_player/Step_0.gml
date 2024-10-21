@@ -71,6 +71,7 @@ if(keyboard_check(ord(interact_button))){
 	}
 }
 
+
 //para checar o fps:
 //show_debug_message("fps real: " + string(fps_real));
 //show_debug_message("gamespeed_fps: " + string(game_get_speed(gamespeed_fps)));
@@ -78,3 +79,17 @@ if hp <=0{
 	room_goto(Lose)
 }
 
+//hp_regen
+
+
+hp_regen = 0;
+
+
+
+if(global.dia) hp_regen += 2;
+else hp_regen -= 1;
+
+if(obj_player_arm.active_weapon == 1 && obj_player_arm.shootleft) hp_regen--;
+
+
+if(hp<max_hp) hp += hp_regen * hp_regen_multiplier;

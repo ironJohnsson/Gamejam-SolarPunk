@@ -1,6 +1,5 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-veloch = veloch - obj_player.gravity_;
+instance_create_layer(x,y,"Layer_dropped_items",obj_piece);
 
-y = y - veloch;

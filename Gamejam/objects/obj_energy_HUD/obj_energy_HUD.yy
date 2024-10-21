@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_energy_HUD",
   "spriteId": {
-    "name": "spr_raio",
-    "path": "sprites/spr_raio/spr_raio.yy",
+    "name": "raios_seta_strip5",
+    "path": "sprites/raios_seta_strip5/raios_seta_strip5.yy",
   },
   "solid": false,
   "visible": true,

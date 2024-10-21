@@ -5,6 +5,8 @@ equipped_mode = true;
 
 shoot_mode = false; 
 
+dropped_mode = false;
+
 shoot_mode_start = true; //rodar uma parte do codigo apenas no primeiro frame que o lancamento iniciar
 
 veloc = 15;
@@ -20,5 +22,7 @@ image_angle = obj_player_arm.image_angle;
 gravity_sandal = 0.8;
 
 angulo_lancamento = image_angle;
+
+destruir = false;
 
 

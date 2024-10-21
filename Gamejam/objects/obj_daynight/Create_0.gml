@@ -1,5 +1,5 @@
 min_ = 0;
-hours = 6;
+hours = 12; //momento que comeca o jogo
 
 increase = 0.1; //how fast the day passes
 
@@ -13,7 +13,7 @@ imagem2 = 0;
 
 alpha_1 = 1;
 
-
+global.dia = true;
 
 /*
 var lay_id_1 = layer_get_id("Background 1");
