@@ -14,15 +14,15 @@ if(image_xscale < 0) image_angle -= 180;
 
 
 //sistema da armas
-shootleft =  mouse_check_button(mb_left);
+global.shootleft =  mouse_check_button(mb_left);
 equip_sunray = (keyboard_check(ord("1")));
 equip_sandal = (keyboard_check(ord("2")));
 
 projectile_spawn_point_x = x + lengthdir_x(ponta_da_arma_x, point_direction(x, y, mouse_x, mouse_y));
 projectile_spawn_point_y = y + lengthdir_y(ponta_da_arma_x, point_direction(x, y, mouse_x, mouse_y));
 
-if(equip_sunray) active_weapon = 1;
-if(equip_sandal) active_weapon = 2;
+if(equip_sunray) global.active_weapon = 1;
+if(equip_sandal) global.active_weapon = 2;
 
 //cooldown da sandalia
 if(sandal_on_cooldown){
@@ -37,12 +37,12 @@ if(sandal_on_cooldown){
 }
 
 
-switch(active_weapon){
+switch(global.active_weapon){
 	
 case 1: //sunray
 	
 	image_index = 0;
-	if(shootleft){
+	if(global.shootleft){
 		
 		instance_create_layer(projectile_spawn_point_x, projectile_spawn_point_y, "Layer_projectile", obj_spawn_sunray);
 	
@@ -64,7 +64,7 @@ case 2: //sandalia
 	
 
 	//atirar sandalia
-	if(shootleft && !sandal_on_cooldown){
+	if(global.shootleft && !sandal_on_cooldown){
 		
 		with(equipped_sandal){
 			

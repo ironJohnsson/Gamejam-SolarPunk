@@ -1,7 +1,7 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-if(obj_player_arm.active_weapon != 2) equipped_mode = false;
+if(global.active_weapon != 2) equipped_mode = false;
 
 if(equipped_mode){
 

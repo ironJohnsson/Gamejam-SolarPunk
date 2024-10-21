@@ -89,7 +89,7 @@ hp_regen = 0;
 if(global.dia) hp_regen += 2;
 else hp_regen -= 1;
 
-if(obj_player_arm.active_weapon == 1 && obj_player_arm.shootleft) hp_regen--;
+if(global.active_weapon == 1 && global.shootleft) hp_regen--;
 
 
 if(hp<max_hp) hp += hp_regen * hp_regen_multiplier;
