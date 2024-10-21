@@ -11,7 +11,6 @@
     {"id":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"order":1,},
     {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},"order":3,},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},"order":1,},
-    {"id":{"name":"obj_fps_coun","path":"objects/obj_fps_coun/obj_fps_coun.yy",},"order":14,},
     {"id":{"name":"spr_col","path":"scripts/spr_col/spr_col.yy",},"order":1,},
     {"id":{"name":"scr_col_enem","path":"scripts/scr_col_enem/scr_col_enem.yy",},"order":0,},
     {"id":{"name":"obj_cana_plant","path":"objects/obj_cana_plant/obj_cana_plant.yy",},"order":12,},
@@ -36,6 +35,7 @@
     {"id":{"name":"obj_player_arm","path":"objects/obj_player_arm/obj_player_arm.yy",},"order":4,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"obj_enti","path":"objects/obj_enti/obj_enti.yy",},"order":3,},
+    {"id":{"name":"spr_caldo_de_cana","path":"sprites/spr_caldo_de_cana/spr_caldo_de_cana.yy",},"order":17,},
     {"id":{"name":"obj_cana_machine","path":"objects/obj_cana_machine/obj_cana_machine.yy",},"order":10,},
     {"id":{"name":"spr_player_arm2","path":"sprites/spr_player_arm2/spr_player_arm2.yy",},"order":8,},
     {"id":{"name":"spr_noite","path":"sprites/spr_noite/spr_noite.yy",},"order":19,},
@@ -46,6 +46,7 @@
     {"id":{"name":"spr_sunray","path":"sprites/spr_sunray/spr_sunray.yy",},"order":5,},
     {"id":{"name":"obj_cana_equipped","path":"objects/obj_cana_equipped/obj_cana_equipped.yy",},"order":11,},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},"order":1,},
+    {"id":{"name":"obj_caldo_de_cana","path":"objects/obj_caldo_de_cana/obj_caldo_de_cana.yy",},"order":14,},
     {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},"order":5,},
     {"id":{"name":"obj_enemy_la","path":"objects/obj_enemy_la/obj_enemy_la.yy",},"order":10,},
     {"id":{"name":"obj_cana_plant_cutted","path":"objects/obj_cana_plant_cutted/obj_cana_plant_cutted.yy",},"order":13,},
@@ -71,9 +72,10 @@
     "children": [],
   },
   "RoomOrderNodes": [
+
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
   ],
   "Folders": [
