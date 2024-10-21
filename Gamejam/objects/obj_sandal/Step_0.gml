@@ -12,12 +12,33 @@ if(equipped_mode){
 	image_xscale = obj_player.image_xscale;
 	if(image_xscale < 0) image_angle -= 180;
 	
+	angulo_lancamento = image_angle;
+	
 }else if(shoot_mode){
+	
+if(place_meeting(x,y,(obj_block)) || place_meeting(x,y,(obj_enemy))){
+	
+	instance_create_layer(x,y,"Layer_projectile", obj_sandal_dropped);
 
+	instance_destroy();
+	
+}
+	
+acel_h = gravity_sandal;
 
+	if(shoot_mode_start){
+		veloc_y = dsin(angulo_lancamento) * veloc;
+		shoot_mode_start = false;
+	}
+	
+veloc_x = dcos(angulo_lancamento) * veloc;
 
-x = x + dcos(image_angle) * veloc;
-y = y - dsin(image_angle) * veloc;
+x = x + veloc_x;
+
+veloc_y = veloc_y - acel_h;
+
+y = y - veloc_y;
+
 
 	
 }else{

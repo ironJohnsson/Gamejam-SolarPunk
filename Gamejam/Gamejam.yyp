@@ -14,6 +14,7 @@
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},"order":1,},
     {"id":{"name":"scr_col_enem","path":"scripts/scr_col_enem/scr_col_enem.yy",},"order":0,},
     {"id":{"name":"obj_cana_plant","path":"objects/obj_cana_plant/obj_cana_plant.yy",},"order":12,},
+    {"id":{"name":"obj_sandal_dropped","path":"objects/obj_sandal_dropped/obj_sandal_dropped.yy",},"order":19,},
     {"id":{"name":"spr_raio","path":"sprites/spr_raio/spr_raio.yy",},"order":21,},
     {"id":{"name":"spr_menu","path":"sprites/spr_menu/spr_menu.yy",},"order":2,},
     {"id":{"name":"spr_cana_plant","path":"sprites/spr_cana_plant/spr_cana_plant.yy",},"order":11,},
