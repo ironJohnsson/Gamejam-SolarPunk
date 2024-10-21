@@ -42,7 +42,6 @@
     {"id":{"name":"spr_sunray","path":"sprites/spr_sunray/spr_sunray.yy",},"order":5,},
     {"id":{"name":"obj_cana_equipped","path":"objects/obj_cana_equipped/obj_cana_equipped.yy",},"order":11,},
     {"id":{"name":"Lose","path":"rooms/Lose/Lose.yy",},"order":3,},
-    {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},"order":1,},
     {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},"order":5,},
     {"id":{"name":"obj_enemy_la","path":"objects/obj_enemy_la/obj_enemy_la.yy",},"order":10,},
     {"id":{"name":"obj_cana_plant_cutted","path":"objects/obj_cana_plant_cutted/obj_cana_plant_cutted.yy",},"order":13,},
@@ -70,7 +69,6 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
-    {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"Lose","path":"rooms/Lose/Lose.yy",},},
   ],
   "Folders": [
