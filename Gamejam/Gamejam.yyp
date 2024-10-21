@@ -32,6 +32,7 @@
     {"id":{"name":"spr_cana_equipped","path":"sprites/spr_cana_equipped/spr_cana_equipped.yy",},"order":12,},
     {"id":{"name":"spr_main_font","path":"sprites/spr_main_font/spr_main_font.yy",},"order":1,},
     {"id":{"name":"spr_anoitecer","path":"sprites/spr_anoitecer/spr_anoitecer.yy",},"order":18,},
+    {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},"order":7,},
     {"id":{"name":"spr_alvorecer","path":"sprites/spr_alvorecer/spr_alvorecer.yy",},"order":14,},
     {"id":{"name":"Room_teste_cana6","path":"rooms/Room_teste_cana6/Room_teste_cana6.yy",},"order":5,},
     {"id":{"name":"obj_daynight","path":"objects/obj_daynight/obj_daynight.yy",},"order":15,},
@@ -84,10 +85,11 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room_background5","path":"rooms/Room_background5/Room_background5.yy",},},
+    {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room_teste_cana6","path":"rooms/Room_teste_cana6/Room_teste_cana6.yy",},},
     {"roomId":{"name":"Room_teste_hud7","path":"rooms/Room_teste_hud7/Room_teste_hud7.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room_background5","path":"rooms/Room_background5/Room_background5.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Anotações","folderPath":"folders/Anotações.yy","order":13,},
