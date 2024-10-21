@@ -41,6 +41,7 @@
     {"id":{"name":"obj_par_inv","path":"objects/obj_par_inv/obj_par_inv.yy",},"order":18,},
     {"id":{"name":"spr_sunray","path":"sprites/spr_sunray/spr_sunray.yy",},"order":5,},
     {"id":{"name":"obj_cana_equipped","path":"objects/obj_cana_equipped/obj_cana_equipped.yy",},"order":11,},
+    {"id":{"name":"Room0","path":"rooms/Room0/Room0.yy",},"order":4,},
     {"id":{"name":"Lose","path":"rooms/Lose/Lose.yy",},"order":3,},
     {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},"order":5,},
     {"id":{"name":"obj_enemy_la","path":"objects/obj_enemy_la/obj_enemy_la.yy",},"order":10,},
@@ -70,6 +71,7 @@
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Lose","path":"rooms/Lose/Lose.yy",},},
+    {"roomId":{"name":"Room0","path":"rooms/Room0/Room0.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Anotações","folderPath":"folders/Anotações.yy","order":13,},
