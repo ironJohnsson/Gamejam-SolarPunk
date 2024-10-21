@@ -1,24 +1,25 @@
 /// @description movimentação
 //movimentação em direção ao player
+if instance_exists(obj_player){
 
-var dir = point_direction(x,y,obj_player.x,obj_player.y);
-hspd=lengthdir_x(spd,dir);
-vspd=lengthdir_y(spd,dir);
+	var dir = point_direction(x,y,	obj_player.x,	obj_player.y);
+	hspd=lengthdir_x(spd,dir);
+	vspd=lengthdir_y(spd,dir);
 
-spr_col();
+	spr_col();
 
 
-scr_col_enem();
+	scr_col_enem();
 
-if!place_meeting(x,y,obj_enemy){
-	hspd_push = lerp(hspd_push,0,.1);
-	vspd_push = lerp(vspd_push,0,.1);
+	if!place_meeting(x,y,obj_enemy){
+		hspd_push = lerp(hspd_push,0,.1);
+		vspd_push = lerp(vspd_push,0,.1);
+	}
+
+	if distance_to_object(obj_player)<100{
+		state=ATK;
+	}
 }
-
-if distance_to_object(obj_player)<100{
-	state=ATK;
-}
-
 
 
 
