@@ -23,6 +23,7 @@
     {"id":{"name":"scr_col_enem","path":"scripts/scr_col_enem/scr_col_enem.yy",},"order":0,},
     {"id":{"name":"obj_cana_plant","path":"objects/obj_cana_plant/obj_cana_plant.yy",},"order":12,},
     {"id":{"name":"spr_raio","path":"sprites/spr_raio/spr_raio.yy",},"order":21,},
+    {"id":{"name":"spr_menu","path":"sprites/spr_menu/spr_menu.yy",},"order":2,},
     {"id":{"name":"spr_cana_plant","path":"sprites/spr_cana_plant/spr_cana_plant.yy",},"order":11,},
     {"id":{"name":"obj_sunray","path":"objects/obj_sunray/obj_sunray.yy",},"order":6,},
     {"id":{"name":"obj_sandal","path":"objects/obj_sandal/obj_sandal.yy",},"order":8,},
@@ -37,6 +38,7 @@
     {"id":{"name":"obj_bloco_quina","path":"objects/obj_bloco_quina/obj_bloco_quina.yy",},"order":16,},
     {"id":{"name":"spr_manha","path":"sprites/spr_manha/spr_manha.yy",},"order":16,},
     {"id":{"name":"spr_cana_equipped","path":"sprites/spr_cana_equipped/spr_cana_equipped.yy",},"order":12,},
+    {"id":{"name":"spr_main_font","path":"sprites/spr_main_font/spr_main_font.yy",},"order":1,},
     {"id":{"name":"spr_anoitecer","path":"sprites/spr_anoitecer/spr_anoitecer.yy",},"order":18,},
     {"id":{"name":"spr_alvorecer","path":"sprites/spr_alvorecer/spr_alvorecer.yy",},"order":14,},
     {"id":{"name":"obj_daynight","path":"objects/obj_daynight/obj_daynight.yy",},"order":15,},
@@ -55,9 +57,11 @@
     {"id":{"name":"obj_cana_machine","path":"objects/obj_cana_machine/obj_cana_machine.yy",},"order":10,},
     {"id":{"name":"spr_player_arm2","path":"sprites/spr_player_arm2/spr_player_arm2.yy",},"order":8,},
     {"id":{"name":"spr_noite","path":"sprites/spr_noite/spr_noite.yy",},"order":19,},
+    {"id":{"name":"obj_settings","path":"objects/obj_settings/obj_settings.yy",},"order":3,},
     {"id":{"name":"spr_cana_machine_strip47","path":"sprites/spr_cana_machine_strip47/spr_cana_machine_strip47.yy",},"order":10,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"spr_daynight","path":"sprites/spr_daynight/spr_daynight.yy",},"order":20,},
+    {"id":{"name":"obj_titlemenu","path":"objects/obj_titlemenu/obj_titlemenu.yy",},"order":0,},
     {"id":{"name":"spr_madrugada","path":"sprites/spr_madrugada/spr_madrugada.yy",},"order":15,},
 
     {"id":{"name":"spr_sunray","path":"sprites/spr_sunray/spr_sunray.yy",},"order":5,},
@@ -90,12 +94,14 @@
     "children": [],
   },
   "RoomOrderNodes": [
-
-    {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
-    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
+
     {"roomId":{"name":"Lose","path":"rooms/Lose/Lose.yy",},},
+
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
+
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Anotações","folderPath":"folders/Anotações.yy","order":13,},
@@ -106,6 +112,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensões","folderPath":"folders/Extensões.yy","order":14,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fontes","folderPath":"folders/Fontes.yy","order":7,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Linhas do tempo","folderPath":"folders/Linhas do tempo.yy","order":8,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Menu System","folderPath":"folders/Menu System.yy","order":15,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objetos","folderPath":"folders/Objetos.yy","order":9,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy","order":5,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sequências","folderPath":"folders/Sequências.yy","order":11,},
