@@ -1,7 +1,7 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "Menu",
+  "name": "Menu_sergio",
   "isDnd": false,
   "volume": 1.0,
   "parentRoom": null,
@@ -26,8 +26,8 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_388D11C5","path":"rooms/Menu/Menu.yy",},
-    {"name":"inst_2E3D024D","path":"rooms/Menu/Menu.yy",},
+    {"name":"inst_388D11C5","path":"rooms/Menu_sergio/Menu_sergio.yy",},
+    {"name":"inst_2E3D024D","path":"rooms/Menu_sergio/Menu_sergio.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
