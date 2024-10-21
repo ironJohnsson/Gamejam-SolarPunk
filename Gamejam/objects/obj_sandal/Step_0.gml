@@ -19,7 +19,25 @@ if(equipped_mode){
 }else if(shoot_mode){
 		
 
-	if(place_meeting(x,y,(obj_block)) || place_meeting(x,y,(obj_enemy)) || place_meeting(x,y,(obj_enemy_la)) ){
+	enemy = instance_place(x,y,(obj_enemy));
+	enemy_la = instance_place(x,y,(obj_enemy_la));
+	
+		if(enemy != noone){
+			
+			enemy.hp -= global.danosandalia;
+			shoot_mode = false;
+			dropped_mode = true;
+		}
+			
+		if(enemy_la != noone){
+			
+			enemy_la.hp -= global.danosandalia;
+			
+			shoot_mode = false;
+			dropped_mode = true;
+		}
+
+	if(place_meeting(x,y,(obj_block))){
 	
 		shoot_mode = false;
 		dropped_mode = true;

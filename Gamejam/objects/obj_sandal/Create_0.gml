@@ -25,4 +25,4 @@ angulo_lancamento = image_angle;
 
 destruir = false;
 
-
+global.danosandalia = 50;
