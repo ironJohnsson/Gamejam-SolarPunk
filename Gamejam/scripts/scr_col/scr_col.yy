@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "spr_col",
+  "name": "scr_col",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {

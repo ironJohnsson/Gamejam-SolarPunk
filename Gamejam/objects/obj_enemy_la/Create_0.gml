@@ -10,6 +10,10 @@ hspd_push = 1;
 hp=300;
 
 
+bullet_cd=room_speed/2;
+alarm[0] = bullet_cd;
+
+
 
 //estados
 MOV = 0;
