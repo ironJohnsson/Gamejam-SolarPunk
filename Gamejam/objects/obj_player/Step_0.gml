@@ -49,8 +49,8 @@ else{
 
 if(keyboard_check(ord(interact_button))){
 	
+	//pegar a cana
 	instancia_cana = instance_position(x, y, obj_cana_plant);
-	
 	
 	if(instancia_cana!=noone && !cana_equipped){
 		
@@ -60,9 +60,14 @@ if(keyboard_check(ord(interact_button))){
 		cana_equipped = true;
 	}
 	
+	//colocar na maquina de cana
+	instancia_cana_machine = instance_position(x, y, obj_cana_machine);
 	
-	if(place_meeting(x,y,obj_cana_machine)){
+	if(instancia_cana_machine!=noone && cana_equipped){
 		
+		with(instancia_cana_machine) processar = true;
+		
+		cana_equipped = false;
 	}
 }
 

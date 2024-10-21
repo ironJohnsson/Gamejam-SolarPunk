@@ -16,7 +16,6 @@ if(timer >= lifetime){
 
 instance_destroy();
 
-
 }
 
 timer++;
