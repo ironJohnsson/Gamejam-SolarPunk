@@ -17,17 +17,19 @@ if accept_key {
 	
 	var _sml = menu_level;
 	
-	switch(menu_level) {
+ 	switch(menu_level) {
 		
 		//pause menu
 		case 0: 
 		    switch(pos) {
 		//start game
 		case 0: room_goto_next(); break;
+		//how to play
+		case 1: room_goto(HTP); break;
 		//credits
-		case 1: menu_level = 1; break;
+		case 2: menu_level = 1; break;
 		//quit game
-		case 2: game_end(); break;
+		case 3: game_end(); break;
 			}
 			break;
 			
@@ -65,6 +67,11 @@ if accept_key {
 			//Return
 			case 2: menu_level = 1; break;
 		}
+		 break;
+		 case 4:
+		 switch(pos) {
+			 case 0: menu_level = 0; break;
+		 }
 		
 	}
 		

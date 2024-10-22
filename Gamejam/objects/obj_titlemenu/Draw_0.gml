@@ -1,4 +1,4 @@
-//draw the options
+ //draw the options
 draw_set_font(global.font_main);
 draw_set_valign(fa_top)
 draw_set_halign(fa_left)
