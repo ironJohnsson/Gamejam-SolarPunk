@@ -22,14 +22,16 @@ if accept_key {
 		//pause menu
 		case 0: 
 		    switch(pos) {
+		//titulo
+		case 0: break;
 		//start game
-		case 0: room_goto_next(); break;
+		case 1: room_goto_next(); break;
 		//how to play
-		case 1: room_goto(HTP); break;
+		case 2: room_goto(HTP); break;
 		//credits
-		case 2: menu_level = 1; break;
+		case 3: menu_level = 1; break;
 		//quit game
-		case 3: game_end(); break;
+		case 4: game_end(); break;
 			}
 			break;
 			

@@ -7,10 +7,11 @@ op_space = 160;
 pos = 0;
 
 //pause menu
-option[0, 0] = "Start Game";
-option[0, 1] = "How To Play";
-option[0, 2] = "Credits";
-option[0, 3] = "Quit Game";
+option[0, 0] = "Enquanto Houver Sol";
+option[0, 1] = "Start Game";
+option[0, 2] = "How To Play";
+option[0, 3] = "Credits";
+option[0, 4] = "Quit Game";
 
 //credits menu
 option[1, 0] = "Devs";
